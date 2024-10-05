@@ -181,7 +181,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="oDjzYUQ0fyRYyr4h6msy" name="Страница — 2">
-    <mxGraphModel dx="955" dy="583" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1400" dy="855" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -315,7 +315,7 @@
             <Array as="points">
               <mxPoint x="370" y="250" />
               <mxPoint x="370" y="750" />
-              <mxPoint x="285" y="750" />
+              <mxPoint x="290" y="750" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -365,7 +365,7 @@
           <mxGeometry x="220" y="670" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="4z_FSHQo15ieUY1mOPt3-55" value="return res;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;" parent="1" vertex="1">
-          <mxGeometry x="210" y="760" width="150" height="60" as="geometry" />
+          <mxGeometry x="220" y="760" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="4z_FSHQo15ieUY1mOPt3-61" value="да" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="340" y="585" width="40" height="30" as="geometry" />
