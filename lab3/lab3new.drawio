@@ -493,7 +493,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="dmXWYSe3H9e1drVdsE0u" name="task">
-    <mxGraphModel dx="772" dy="1342" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="257" dy="447" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -656,6 +656,9 @@
         </mxCell>
         <mxCell id="issCcDpIFQQH_nZkHEsY-1" value="&lt;font face=&quot;Tahoma&quot; style=&quot;font-size: 13px;&quot;&gt;Лабораторная работа №3 Молчанов Степан Б24-516&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="487" y="860" width="340" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="issCcDpIFQQH_nZkHEsY-2" value="&lt;font style=&quot;font-size: 12px;&quot; face=&quot;Lucida Console&quot;&gt;нет&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="80" y="440" width="50" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
