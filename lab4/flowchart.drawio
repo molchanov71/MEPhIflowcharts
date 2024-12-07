@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" version="25.0.1" pages="9">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" version="25.0.3" pages="9">
   <diagram name="main" id="D6ns9xDqqRzAWPxw2lhF">
     <mxGraphModel dx="460" dy="938" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1015,6 +1015,12 @@
         </mxCell>
         <mxCell id="Lm0Ei7xanA5Wpsn2-Da8-6" value="&lt;font face=&quot;Lucida Console&quot;&gt;Лабораторная работа №4&lt;/font&gt;&lt;span style=&quot;font-family: &amp;quot;Lucida Console&amp;quot;; background-color: initial;&quot;&gt;&amp;nbsp;Молчанов Степан Б24-516&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="467" y="320" width="360" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GMd4uU4ut3gxyXp_hBWY-1" value="да" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Lucida Console;" vertex="1" parent="1">
+          <mxGeometry x="190" y="280" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GMd4uU4ut3gxyXp_hBWY-2" value="&lt;font face=&quot;Lucida Console&quot;&gt;нет&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="115" y="328" width="50" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
