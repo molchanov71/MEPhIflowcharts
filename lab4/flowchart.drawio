@@ -356,7 +356,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="SmBuBaVG8UtfvgibYCcQ" name="search_vowels">
-    <mxGraphModel dx="772" dy="1045" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1420" dy="768" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -369,7 +369,7 @@
         <mxCell id="zNtamCJtzmbzV1KP52Ba-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" parent="1" source="zNtamCJtzmbzV1KP52Ba-2" target="zNtamCJtzmbzV1KP52Ba-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="zNtamCJtzmbzV1KP52Ba-2" value="&lt;font face=&quot;Lucida Console&quot;&gt;int str_len = strlen(str), &lt;br&gt;count = 0;&lt;br&gt;char *str_copy = strdup(str);&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="zNtamCJtzmbzV1KP52Ba-2" value="&lt;font face=&quot;Lucida Console&quot;&gt;int str_len = strlen(str), &lt;br&gt;count = 0;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="40" y="150" width="160" height="80" as="geometry" />
         </mxCell>
         <mxCell id="zNtamCJtzmbzV1KP52Ba-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" parent="1" source="zNtamCJtzmbzV1KP52Ba-3" target="zNtamCJtzmbzV1KP52Ba-4" edge="1">
@@ -381,8 +381,10 @@
         <mxCell id="zNtamCJtzmbzV1KP52Ba-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" parent="1" source="zNtamCJtzmbzV1KP52Ba-4" target="zNtamCJtzmbzV1KP52Ba-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="zNtamCJtzmbzV1KP52Ba-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" parent="1" source="zNtamCJtzmbzV1KP52Ba-4" target="zNtamCJtzmbzV1KP52Ba-16" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="zNtamCJtzmbzV1KP52Ba-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" parent="1" source="zNtamCJtzmbzV1KP52Ba-4" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="240" y="410" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="zNtamCJtzmbzV1KP52Ba-4" value="&lt;font style=&quot;font-size: 15px;&quot; face=&quot;Lucida Console&quot;&gt;int i = 0;&lt;br&gt;i &amp;lt; str_len;&lt;br&gt;i++&lt;/font&gt;" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
           <mxGeometry x="40" y="370" width="160" height="80" as="geometry" />
@@ -395,7 +397,7 @@
             <mxPoint x="30" y="520" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="zNtamCJtzmbzV1KP52Ba-5" value="&lt;font style=&quot;font-size: 11px;&quot; face=&quot;Lucida Console&quot;&gt;strchr(vowels, tolower(str_copy[i])) != NULL&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="zNtamCJtzmbzV1KP52Ba-5" value="&lt;font style=&quot;font-size: 11px;&quot; face=&quot;Lucida Console&quot;&gt;strchr(vowels, tolower(str[i])) != NULL&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="40" y="480" width="160" height="80" as="geometry" />
         </mxCell>
         <mxCell id="zNtamCJtzmbzV1KP52Ba-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="zNtamCJtzmbzV1KP52Ba-6" target="zNtamCJtzmbzV1KP52Ba-4" edge="1">
@@ -415,14 +417,8 @@
         <mxCell id="zNtamCJtzmbzV1KP52Ba-15" value="&lt;font face=&quot;Lucida Console&quot;&gt;да&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="110" y="548" width="40" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="zNtamCJtzmbzV1KP52Ba-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" parent="1" source="zNtamCJtzmbzV1KP52Ba-16" target="zNtamCJtzmbzV1KP52Ba-17" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="zNtamCJtzmbzV1KP52Ba-16" value="&lt;font style=&quot;font-size: 16px;&quot; face=&quot;Lucida Console&quot;&gt;free(str_copy);&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="240" y="370" width="160" height="80" as="geometry" />
-        </mxCell>
         <mxCell id="zNtamCJtzmbzV1KP52Ba-17" value="&lt;font style=&quot;font-size: 15px;&quot; face=&quot;Lucida Console&quot;&gt;return count % 2;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;" parent="1" vertex="1">
-          <mxGeometry x="240" y="480" width="160" height="80" as="geometry" />
+          <mxGeometry x="240" y="370" width="160" height="80" as="geometry" />
         </mxCell>
         <mxCell id="WDKllqod12Ho7Egv78R0-1" value="&lt;font face=&quot;Lucida Console&quot;&gt;1&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="105" width="30" height="30" as="geometry" />
