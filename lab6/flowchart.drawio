@@ -16,8 +16,17 @@
         <mxCell id="XzOcoUJZ9QDszm1NcNFP-4" value="&lt;font style=&quot;font-size: 10px;&quot; face=&quot;Lucida Console&quot;&gt;(res = read_line(s))&lt;br&gt;&amp;nbsp;== EOF_ERR&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=0;strokeColor=default;align=center;verticalAlign=middle;arcSize=50;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
           <mxGeometry x="40" y="370" width="160" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="XzOcoUJZ9QDszm1NcNFP-6" value="" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;rounded=0;strokeColor=default;align=center;verticalAlign=middle;arcSize=50;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+        <mxCell id="XzOcoUJZ9QDszm1NcNFP-6" value="&lt;font style=&quot;font-size: 13px;&quot; face=&quot;Lucida Console&quot;&gt;clear_spaces(s);&lt;br&gt;task(s);&lt;/font&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;rounded=0;strokeColor=default;align=center;verticalAlign=middle;arcSize=50;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
           <mxGeometry x="40" y="480" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="XzOcoUJZ9QDszm1NcNFP-7" value="&lt;font face=&quot;Lucida Console&quot;&gt;s-&amp;gt;head != s-&amp;gt;tail&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=0;strokeColor=default;align=center;verticalAlign=middle;arcSize=50;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="40" y="590" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="XzOcoUJZ9QDszm1NcNFP-8" value="&lt;font face=&quot;Lucida Console&quot;&gt;s-&amp;gt;tail = s-&amp;gt;tail&lt;br&gt;-&amp;gt;prev;&lt;br&gt;free(s-&amp;gt;tail-&amp;gt;next);&lt;br&gt;s-&amp;gt;tail-&amp;gt;next = NULL;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;arcSize=50;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="240" y="590" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="XzOcoUJZ9QDszm1NcNFP-9" value="&lt;font face=&quot;Lucida Console&quot;&gt;print_string(*s);&lt;br&gt;free_string (*s);&lt;/font&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;rounded=0;strokeColor=default;align=center;verticalAlign=middle;arcSize=50;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="40" y="700" width="160" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
